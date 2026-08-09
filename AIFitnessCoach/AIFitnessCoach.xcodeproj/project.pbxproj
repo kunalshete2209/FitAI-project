@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0001012C29B00000111111 /* AIFitnessCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000012C29B00000111111 /* AIFitnessCoachApp.swift */; };
+		1A0001022C29B00000111111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000022C29B00000111111 /* ContentView.swift */; };
+		1A0001032C29B00000111111 /* FitnessModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000032C29B00000111111 /* FitnessModels.swift */; };
+		1A0001042C29B00000111111 /* WorkoutPlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000042C29B00000111111 /* WorkoutPlannerViewModel.swift */; };
+		1A0001052C29B00000111111 /* OpenAIWorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000052C29B00000111111 /* OpenAIWorkoutService.swift */; };
+		1A0001062C29B00000111111 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000062C29B00000111111 /* PersistenceController.swift */; };
+		1A0001072C29B00000111111 /* PDFExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000072C29B00000111111 /* PDFExporter.swift */; };
+		1A0001082C29B00000111111 /* AnimatedCoachBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000082C29B00000111111 /* AnimatedCoachBackground.swift */; };
+		1A0001092C29B00000111111 /* ProfileFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000092C29B00000111111 /* ProfileFormView.swift */; };
+		1A00010A2C29B00000111111 /* WorkoutPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000A2C29B00000111111 /* WorkoutPlanView.swift */; };
+		1A00010B2C29B00000111111 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000B2C29B00000111111 /* HistoryView.swift */; };
+		1A00010C2C29B00000111111 /* DietPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000D2C29B00000111111 /* DietPlanView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A0000012C29B00000111111 /* AIFitnessCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIFitnessCoachApp.swift; sourceTree = "<group>"; };
+		1A0000022C29B00000111111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A0000032C29B00000111111 /* FitnessModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessModels.swift; sourceTree = "<group>"; };
+		1A0000042C29B00000111111 /* WorkoutPlannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlannerViewModel.swift; sourceTree = "<group>"; };
+		1A0000052C29B00000111111 /* OpenAIWorkoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIWorkoutService.swift; sourceTree = "<group>"; };
+		1A0000062C29B00000111111 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		1A0000072C29B00000111111 /* PDFExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExporter.swift; sourceTree = "<group>"; };
+		1A0000082C29B00000111111 /* AnimatedCoachBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCoachBackground.swift; sourceTree = "<group>"; };
+		1A0000092C29B00000111111 /* ProfileFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFormView.swift; sourceTree = "<group>"; };
+		1A00000A2C29B00000111111 /* WorkoutPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanView.swift; sourceTree = "<group>"; };
+		1A00000B2C29B00000111111 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		1A00000D2C29B00000111111 /* DietPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlanView.swift; sourceTree = "<group>"; };
+		1A00000C2C29B00000111111 /* AIFitnessCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIFitnessCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0000202C29B00000111111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0000302C29B00000111111 = {
+			isa = PBXGroup;
+			children = (
+				1A0000312C29B00000111111 /* AIFitnessCoach */,
+				1A0000322C29B00000111111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A0000312C29B00000111111 /* AIFitnessCoach */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000012C29B00000111111 /* AIFitnessCoachApp.swift */,
+				1A0000022C29B00000111111 /* ContentView.swift */,
+				1A0000332C29B00000111111 /* Models */,
+				1A0000342C29B00000111111 /* ViewModels */,
+				1A0000352C29B00000111111 /* Services */,
+				1A0000362C29B00000111111 /* Persistence */,
+				1A0000372C29B00000111111 /* Utilities */,
+				1A0000382C29B00000111111 /* Views */,
+			);
+			path = AIFitnessCoach;
+			sourceTree = "<group>";
+		};
+		1A0000322C29B00000111111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A00000C2C29B00000111111 /* AIFitnessCoach.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0000332C29B00000111111 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000032C29B00000111111 /* FitnessModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A0000342C29B00000111111 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000042C29B00000111111 /* WorkoutPlannerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1A0000352C29B00000111111 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000052C29B00000111111 /* OpenAIWorkoutService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1A0000362C29B00000111111 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000062C29B00000111111 /* PersistenceController.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		1A0000372C29B00000111111 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000072C29B00000111111 /* PDFExporter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1A0000382C29B00000111111 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000082C29B00000111111 /* AnimatedCoachBackground.swift */,
+				1A0000092C29B00000111111 /* ProfileFormView.swift */,
+				1A00000A2C29B00000111111 /* WorkoutPlanView.swift */,
+				1A00000D2C29B00000111111 /* DietPlanView.swift */,
+				1A00000B2C29B00000111111 /* HistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0000402C29B00000111111 /* AIFitnessCoach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0000602C29B00000111111 /* Build configuration list for PBXNativeTarget "AIFitnessCoach" */;
+			buildPhases = (
+				1A0000502C29B00000111111 /* Sources */,
+				1A0000202C29B00000111111 /* Frameworks */,
+				1A0000512C29B00000111111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIFitnessCoach;
+			productName = AIFitnessCoach;
+			productReference = 1A00000C2C29B00000111111 /* AIFitnessCoach.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0000412C29B00000111111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1A0000402C29B00000111111 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 1A0000422C29B00000111111 /* Build configuration list for PBXProject "AIFitnessCoach" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A0000302C29B00000111111;
+			productRefGroup = 1A0000322C29B00000111111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0000402C29B00000111111 /* AIFitnessCoach */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0000512C29B00000111111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0000502C29B00000111111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0001012C29B00000111111 /* AIFitnessCoachApp.swift in Sources */,
+				1A0001022C29B00000111111 /* ContentView.swift in Sources */,
+				1A0001032C29B00000111111 /* FitnessModels.swift in Sources */,
+				1A0001042C29B00000111111 /* WorkoutPlannerViewModel.swift in Sources */,
+				1A0001052C29B00000111111 /* OpenAIWorkoutService.swift in Sources */,
+				1A0001062C29B00000111111 /* PersistenceController.swift in Sources */,
+				1A0001072C29B00000111111 /* PDFExporter.swift in Sources */,
+				1A0001082C29B00000111111 /* AnimatedCoachBackground.swift in Sources */,
+				1A0001092C29B00000111111 /* ProfileFormView.swift in Sources */,
+				1A00010A2C29B00000111111 /* WorkoutPlanView.swift in Sources */,
+				1A00010C2C29B00000111111 /* DietPlanView.swift in Sources */,
+				1A00010B2C29B00000111111 /* HistoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A0000702C29B00000111111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A0000712C29B00000111111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0000722C29B00000111111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Fitness Coach";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.AIFitnessCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A0000732C29B00000111111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI Fitness Coach";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.portfolio.AIFitnessCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0000422C29B00000111111 /* Build configuration list for PBXProject "AIFitnessCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000702C29B00000111111 /* Debug */,
+				1A0000712C29B00000111111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0000602C29B00000111111 /* Build configuration list for PBXNativeTarget "AIFitnessCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000722C29B00000111111 /* Debug */,
+				1A0000732C29B00000111111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0000412C29B00000111111 /* Project object */;
+}
